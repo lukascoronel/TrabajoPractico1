@@ -1,17 +1,77 @@
 
 
 public class Paciente {
+    private String nombre;
+    private String apellido;
+    private String edad;
+    private int DNI;
+    private int urgencia;
+
+    // Constructor vacío
     public Paciente() {
     }
 
-    String nombre, apellido, edad;
-    int DNI;
-    int urgencia;
+    // Constructor con parámetros
+    public Paciente(String nombre, String apellido, String edad, int DNI, int urgencia) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.edad = edad;
+        this.DNI = DNI;
+        this.urgencia = urgencia;
+    }
 
-    public Paciente(String nombre, String apellido, int DNI, int urgencia) {
-    this.nombre = nombre;
-    this.apellido = apellido;
-    this.DNI = DNI;
-    this.urgencia = urgencia;
+    // Getters
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public String getEdad() {
+        return edad;
+    }
+
+    public int getDNI() {
+        return DNI;
+    }
+
+    public int getUrgencia() {
+        return urgencia;
+    }
+
+    // Setters
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public void setEdad(String edad) {
+        this.edad = edad;
+    }
+
+    public void setDNI(int DNI) {
+        this.DNI = DNI;
+    }
+
+    public void setUrgencia(int urgencia) {
+        this.urgencia = urgencia;
+    }
+
+    // toString
+    @Override
+    public String toString() {
+        return "Paciente{" +
+                "nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", edad='" + edad + '\'' +
+                ", DNI=" + DNI +
+                ", urgencia=" + urgencia +
+                '}';
     }
 }
+

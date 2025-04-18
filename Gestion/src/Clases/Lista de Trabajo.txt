@@ -1,8 +1,0 @@
-- Implementar un menu
-- Implementar constructores de pacientes y medicos
-- Implementar metodos del menu como funcionalidades del mismo
-- Implementar las listas de medicos con id
-- Implementar la lista de pacientes
-- Implementar prioridades de pacientes
-- Implementar la atencion de los medicos
-- Implementar reportes
