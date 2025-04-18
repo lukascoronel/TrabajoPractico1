@@ -33,23 +33,23 @@ public class Menu {
         }
         switch (menu) {
             case 1:
-                System.out.println("Elegiste el menu 1");
+                System.out.println("Elegiste la opcion 1");
                 ActionMenu.ingresopaciente();
                 return;
             case 2:
-                System.out.println("Elegiste el menu 2");
+                System.out.println("Elegiste la opcion 2");
                 ActionMenu.altamedico();
                 return;
             case 3:
-                System.out.println("Elegiste el menu 3");
+                System.out.println("Elegiste la opcion 3");
                 ActionMenu.asignarmedico();
                 return;
             case 4:
-                System.out.println("Elegiste el menu 4");
+                System.out.println("Elegiste la opcion 4");
                 ActionMenu.atenderpaciente();
                 return;
             case 5:
-                System.out.println("Elegiste el menu 5");
+                System.out.println("Elegiste la opcion 5");
                 ActionMenu.reporte();
                 return;
             case 6:
