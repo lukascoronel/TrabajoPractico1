@@ -5,14 +5,14 @@ public class Paciente {
     private String apellido;
     private String edad;
     private int DNI;
-    private int urgencia;
+    private NivelUrgencia urgencia;
 
     // Constructor vacío
     public Paciente() {
     }
 
     // Constructor con parámetros
-    public Paciente(String nombre, String apellido, String edad, int DNI, int urgencia) {
+    public Paciente(String nombre, String apellido, String edad, int DNI, NivelUrgencia urgencia) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
@@ -37,7 +37,7 @@ public class Paciente {
         return DNI;
     }
 
-    public int getUrgencia() {
+    public NivelUrgencia getUrgencia() {
         return urgencia;
     }
 
@@ -58,7 +58,7 @@ public class Paciente {
         this.DNI = DNI;
     }
 
-    public void setUrgencia(int urgencia) {
+    public void setUrgencia(NivelUrgencia urgencia) {
         this.urgencia = urgencia;
     }
 
