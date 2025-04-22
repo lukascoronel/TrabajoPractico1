@@ -93,7 +93,7 @@ public class ActionMenu {
             System.out.println(paciente);
         }
     }
-
+//push
     static void asignarmedico() {
         List<Paciente> enEspera = centro.getPacientesEnEsperaDeMedico();
 
